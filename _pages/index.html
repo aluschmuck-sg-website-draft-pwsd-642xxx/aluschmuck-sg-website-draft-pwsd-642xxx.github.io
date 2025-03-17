@@ -95,6 +95,87 @@ gallery-dom:
       image_path: /assets/images/gallery/dom6.webp
       alt: "Dom Kollektion Item"
       title: "Dom Kollektion Item"
+
+
+round-images:
+    - image-path: "/assets/images/header.webp"
+      size: "third"
+      header: "Header 1"
+      caption: "Caption 1"
+    - image-path: "/assets/images/sydney-2.webp"
+      size: "third"
+      header: "Header 2"
+      caption: "Caption 2"
+    - image-path: "/assets/images/sydney-3.webp"
+      size: "third"
+      header: "Header 3"
+      caption: "Caption 3"
+    - image-path: "/assets/images/sydney-4.webp"
+      size: "third"
+      header: "Header 4"
+      caption: "Caption 4"
+    - image-path: "/assets/images/sydney-5.webp"
+      size: "half"
+      header: "Header 5"
+      caption: "Caption 5"
+    - image-path: "/assets/images/sydney-6.webp"
+
+
+
+entdecke-deine-stadt:
+    - header: "Sabine Gläsel - entdecke-deine-stadt: Kölner Stadtführungen"
+      btn-url: "http://entdecke-deine-stadt.de/"
+      btn-class: "primary"
+      btn-label: "Zur Website"
+      blank: true
+      image-url: "/assets/images/entdecke-deine-stadt.jpg"
+      alt-text: "Sabine Gläsel - entdecke-deine-stadt - Kölner Stadtführungen"
+      image-width: "150px"
+      image-right: false
+
+filz-gnoss:
+      - header: "Filz Gnoss"
+        btn-url: "https://www.filz-gnoss.de/"
+        btn-class: "primary"
+        btn-label: "Zur Website"
+        blank: true
+        image-url: "/assets/images/filz-gnoss.jpg"
+        alt-text: "Filz Gnoss"
+        image-width: "150px"
+        image-right: true
+
+koeln-tourismus:
+      - header: "KölnTourismus GmbH  / Der Köln Shop"
+        btn-url: "https://www.der-koelnshop.de/"
+        btn-class: "primary"
+        btn-label: "Zur Website"
+        blank: true
+        image-url: "/assets/images/koelnshop.jpg"
+        alt-text: "KölnTourismus GmbH  / Der Köln Shop"
+        image-width: "150px"
+        image-right: false
+
+elke-kruse:
+      - header: "Elke Kruse: Kölsche Geschenkartikel"
+        btn-url: "http://www.koelngeschenk.de/"
+        btn-class: "primary"
+        btn-label: "Zur Website"
+        blank: true
+        image-url: "/assets/images/elkekruse.jpg"
+        alt-text: "Elke Kruse: Kölsche Geschenkartikel"
+        image-width: "150px"
+        image-right: true
+
+bock-op-koelle:
+      - header: "Bock op Kölle"
+        btn-url: "http://www.bock-op-koelle.de/"
+        btn-class: "primary"
+        btn-label: "Zur Website"
+        blank: true
+        image-url: "/assets/images/bock-op-koelle.jpg"
+        alt-text: "Bock op Kölle"
+        image-width: "150px"
+        image-right: false
 ---
 
 
@@ -162,7 +243,24 @@ gallery-dom:
 
 <section id="partner">
 <h1>Partner</h1>
+    <b>—befreundete Unternehmen und Referenzen—</b>
+
+    <div class="box box--primary" style="padding: 0 6rem 0 6rem; margin: 2rem 4rem 0 4rem;">
+
+        {% include image-text-row id="entdecke-deine-stadt" %}
+        <hr>
+        {% include image-text-row id="filz-gnoss" %}
+        <hr>
+        {% include image-text-row id="koeln-tourismus" %}
+        <hr>
+        {% include image-text-row id="elke-kruse" %}
+        <hr>
+        {% include image-text-row id="bock-op-koelle" %}
+
+
+
+
+    </div>
 </section>
 
-<hr class="section-sep">
 
